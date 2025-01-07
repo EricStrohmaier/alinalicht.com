@@ -75,7 +75,7 @@ export default function EmailSignup() {
                 required: true,
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               })}
-              className="pl-2 w-full h-10 rounded-md md:pl-4"
+              className="pl-2 w-full h-10 rounded-md md:pl-4 text-black"
               type="email"
               placeholder="your@email.com"
               onChange={handleInputChange}
