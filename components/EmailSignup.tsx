@@ -83,7 +83,7 @@ export default function EmailSignup() {
 
             <button
               type="submit"
-              className="p-2 ml-3 text-lg font-thin text-white bg-pink-400 rounded-md transition duration-100 lg:mt-0 lg:ml-3 hover:scale-105 md:text-xl"
+              className="p-2 ml-3 text-lg text-white bg-pink-400 rounded-md transition duration-100 lg:mt-0 lg:ml-3 hover:scale-105 md:text-xl font-base"
               disabled={isSignupSuccessful || isLoading}
             >
               {isLoading ? "Subscribing..." : "Subscribe"}
