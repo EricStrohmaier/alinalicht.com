@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import webimg from "@/assets/img/img_web.jpg";
-import mobileimg from "@/assets/img/img_mobile.jpg";
 import useMediaQuery from "@/hooks/useMediaQuery";
 
 export default function MainCard() {
@@ -15,17 +12,15 @@ export default function MainCard() {
       <div className="relative z-0 flex flex-col md:flex-row">
         <div className="h-auto w-full relative">
           {isDesktop ? (
-            <Image
-              src={webimg}
+            <img
+              src={"/img/img_web.jpg"}
               alt="Artist"
-              priority
               className="w-full h-auto"
             />
           ) : (
-            <Image
-              src={mobileimg}
+            <img
+              src={"/img/img_mobile.jpg"}
               alt="Artist"
-              priority
               className="w-full h-auto"
             />
           )}

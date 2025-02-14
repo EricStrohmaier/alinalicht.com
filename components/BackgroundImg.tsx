@@ -1,11 +1,9 @@
-import backgroundIMG from "@/assets/img/background.jpg";
-
 function BackgroundImg() {
   return (
     <div>
       <img
         className="z-0"
-        src={backgroundIMG.src}
+        src={"/img/background.jpg"}
         alt="background"
         style={{
           objectFit: "cover",
